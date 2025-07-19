@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <p>React App Deploy in Vercel</p>
+     <p>Chandini Suraj Padhi</p>
     </div>
   );
 }
