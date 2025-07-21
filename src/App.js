@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './header';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-     <p>Chandini Suraj Padhi</p>
+      <BrowserRouter>
+      <Nav />
+     <p>Chandini Suraj Padhi Dashboard</p>
+     </BrowserRouter>
     </div>
   );
 }
